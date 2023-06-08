@@ -13,13 +13,18 @@ body {
     --White: hsl(0, 0%, 100%)
 }
 
+.desktop {
+    display: none;
+}
+
 h1 {
     font-size: 38px;
     font-weight: 700;
     color: var(--Dark-Slate-Grey);
     padding: 26px 0;
 }
-.textH1{
+
+.textH1 {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -31,11 +36,11 @@ h1 {
     padding: 25px;
 }
 
-.containCheck { 
+.containCheck {
     margin: 0 0 20px 0;
 }
 
-ul{
+ul {
     padding: 0 30px;
     list-style-image: url(/img/icon-list.svg);
     color: var(--Dark-Slate-Grey);
@@ -45,7 +50,7 @@ ul{
     margin-bottom: 30px;
 }
 
-ul > li{
+ul>li {
     padding-left: 14px;
     font-weight: 400;
 }
@@ -55,30 +60,30 @@ ul > li{
     flex-direction: column;
 }
 
-label{
+label {
     color: var(--Dark-Slate-Grey);
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-::placeholder{
+::placeholder {
     font-size: 16px;
     padding-left: 18px;
     color: rgb(200, 199, 199);
 }
 
-input{
+input {
     height: 2.8rem;
     border-radius: 0.4rem;
     border: solid 1px rgb(217, 215, 215);
     margin-bottom: 20px;
 }
 
-button{
+button {
     height: 2.8rem;
     border-radius: 0.4rem;
-    width: 100%; 
+    width: 100%;
     border: none;
     background-color: var(--Dark-Slate-Grey);
     color: white;
@@ -86,4 +91,51 @@ button{
     font-size: 16px;
 }
 
+@media screen and (min-width: 1023px) {
 
+    body {
+        background-color: var(--Dark-Slate-Grey);
+    }
+
+    main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+        margin-right: 30px;
+
+    }
+
+    .containInfo, 
+    .containImgMobile {
+        background-color: var(--White);
+        width: 400px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .containInfo{
+        height: 550px;
+        border-radius: 2rem 0 0 2rem;
+        padding: 25px 50px;
+    }
+
+    .containImgMobile{
+        border-radius: 0 2rem 2rem 0;
+    }
+
+    
+
+}
