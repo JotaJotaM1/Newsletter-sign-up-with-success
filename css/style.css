@@ -42,7 +42,7 @@ h1 {
 
 ul {
     padding: 0 30px;
-    list-style-image: url(/img/icon-list.svg);
+    list-style-image: url(img/icon-list.svg);
     color: var(--Dark-Slate-Grey);
     font-size: 16px;
     font-weight: 400;
