@@ -1,0 +1,89 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --Tomato: hsl(4, 100%, 67%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --White: hsl(0, 0%, 100%)
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--Dark-Slate-Grey);
+    padding: 26px 0;
+}
+.textH1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--Dark-Slate-Grey);
+    padding-bottom: 25px;
+}
+
+.containInfo {
+    padding: 25px;
+}
+
+.containCheck { 
+    margin: 0 0 20px 0;
+}
+
+ul{
+    padding: 0 30px;
+    list-style-image: url(/img/icon-list.svg);
+    color: var(--Dark-Slate-Grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+ul > li{
+    padding-left: 14px;
+    font-weight: 400;
+}
+
+.containInput {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: var(--Dark-Slate-Grey);
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    font-size: 16px;
+    padding-left: 18px;
+    color: rgb(200, 199, 199);
+}
+
+input{
+    height: 2.8rem;
+    border-radius: 0.4rem;
+    border: solid 1px rgb(217, 215, 215);
+    margin-bottom: 20px;
+}
+
+button{
+    height: 2.8rem;
+    border-radius: 0.4rem;
+    width: 100%; 
+    border: none;
+    background-color: var(--Dark-Slate-Grey);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
