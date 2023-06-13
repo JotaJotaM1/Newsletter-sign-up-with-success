@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 45px;
     font-weight: 700;
     color: var(--Dark-Slate-Grey);
     padding: 26px 0;
@@ -42,7 +42,7 @@ h1 {
 
 ul {
     padding: 0 30px;
-    list-style-image: url(/img/icon-list.svg);
+    list-style-image: url(../img/icon-list.svg);
     color: var(--Dark-Slate-Grey);
     font-size: 16px;
     font-weight: 400;
