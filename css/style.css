@@ -119,7 +119,7 @@ button {
 
     }
 
-    .containInfo, 
+    .containInfo,
     .containImgMobile {
         background-color: var(--White);
         width: 400px;
@@ -129,16 +129,16 @@ button {
         justify-content: center;
     }
 
-    .containInfo{
+    .containInfo {
         height: 550px;
         border-radius: 2rem 0 0 2rem;
         padding: 25px 50px;
     }
 
-    .containImgMobile{
+    .containImgMobile {
         border-radius: 0 2rem 2rem 0;
     }
 
-    
+
 
 }
