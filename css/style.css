@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 :root {
@@ -22,6 +23,7 @@ body {
     font-weight: 700;
     color: var(--Dark-Slate-Grey);
     padding: 26px 0;
+    margin: 0;
 }
 
 .textH1 {
@@ -30,6 +32,7 @@ body {
     line-height: 24px;
     color: var(--Dark-Slate-Grey);
     padding-bottom: 25px;
+    margin: 0;
 }
 
 .containInfo {
