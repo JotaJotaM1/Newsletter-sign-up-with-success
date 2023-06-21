@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <main>
+    <main id="contenedor1">
         <div class="containImgMobile">
             <img class="mobile" src="img/illustration-sign-up-mobile.svg" alt="mobile">
             <img class="desktop" src="img/illustration-sign-up-desktop.svg" alt="desktop">
@@ -25,13 +25,19 @@
                     <li>And much more!</li>
                 </ul>
             </div>
-            <form class="containInput">
+            <form class="containInput" id="myForm">
                 <label for="email">Email address</label>
                 <input id="email" type="email" placeholder="email@company.com">
+                <button>Subscribe to monthly newsletter</button>
             </form>
-            <button>Subscribe to monthly newsletter</button>
-        </div>
     </main>
+    <div id="contenedor2">
+        <img src="img/icon-list.svg" alt="icon-list">
+        <h1 class="titleTwo">Thanks for<br>subscribing!</h1>
+        <p>  A confirmation email has been sent to ash@loremcompany.com. 
+            Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+    <script src="/index.js"></script>
 </body>
 
 </html>

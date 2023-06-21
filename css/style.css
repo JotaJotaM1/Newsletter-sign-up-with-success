@@ -13,10 +13,25 @@ body {
     --Dark-Slate-Grey: hsl(234, 29%, 20%);
     --White: hsl(0, 0%, 100%)
 }
-
 .desktop {
     display: none;
 }
+
+#contenedor2{
+    display: none;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.titleTwo{
+    font-size: 30px;
+    color:var(--Dark-Slate-Grey);
+}
+
+
 
 .titlePrincipal {
     font-size: 50px;
@@ -38,6 +53,7 @@ body {
 .containInfo {
     padding: 25px;
 }
+
 
 .containCheck {
     margin: 0 0 20px 0;
@@ -98,6 +114,10 @@ button {
 
     body {
         background-color: var(--Dark-Slate-Grey);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
 
     main {
@@ -106,8 +126,8 @@ button {
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
-
     }
+
 
     .mobile {
         display: none;
@@ -138,7 +158,5 @@ button {
     .containImgMobile {
         border-radius: 0 2rem 2rem 0;
     }
-
-
 
 }
