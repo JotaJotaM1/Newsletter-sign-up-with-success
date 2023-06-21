@@ -18,9 +18,9 @@ body {
     display: none;
 }
 
-
-
-
+.mobile{
+    width: 100%;
+}
 
 .titlePrincipal {
     font-size: 50px;
