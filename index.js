@@ -28,7 +28,7 @@ function handleSubmit(event) {
     contenedor1.style.display = "none";
     contenedor2.style.display = "flex";
   } else {
-    alert("Ingresa un correo electrónico válido");
+    alert("Ingresa un correo electrónico");
     console.log('Correo electrónico inválido');
   }
 }
