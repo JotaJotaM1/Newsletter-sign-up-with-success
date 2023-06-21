@@ -51,6 +51,10 @@ function handleDismiss() {
 // Agregar el evento de clic al botón "Dismiss message"
 dismissButton.addEventListener('click', handleDismiss);
 
+function reloadPage() {
+  location.reload();
+}
+
 
 
 
