@@ -2,9 +2,8 @@
 const form = document.getElementById('myForm');
 const emailInput = document.getElementById('email');
 const contenedor1 = document.getElementById('contenedor1');
-const contenedor2 = document.getElementById('contenedor2');
 const dismissButton = document.querySelector('.buttonTwo');
-const mainContent = document.querySelector('main');
+
 
 function validateEmail() {
   const email = emailInput.value;
@@ -43,13 +42,6 @@ function dismissMessage() {
 form.addEventListener('submit', handleSubmit);
 
 // Función para ocultar el contenedor2 y mostrar el main
-function handleDismiss() {
-    contenedor2.style.display = 'none';
-    mainContent.style.display = 'block';
-  }
-  
-// Agregar el evento de clic al botón "Dismiss message"
-dismissButton.addEventListener('click', handleDismiss);
 
 function reloadPage() {
   location.reload();
